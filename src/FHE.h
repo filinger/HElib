@@ -20,7 +20,7 @@
    @brief Public/secret keys for the BGV cryptosystem
 */
 #include <vector>
-#include "NTL/ZZX.h"
+#include <NTL\ZZX.h>
 #include "DoubleCRT.h"
 #include "FHEContext.h"
 #include "Ctxt.h"
