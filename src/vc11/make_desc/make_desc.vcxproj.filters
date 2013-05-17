@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ntl\MakeDesc\MakeDesc.cpp">
+    <ClCompile Include="MakeDesc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ntl\MakeDesc\MakeDescAux.cpp">
+    <ClCompile Include="MakeDescAux.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

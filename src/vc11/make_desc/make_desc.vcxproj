@@ -10,6 +10,10 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MakeDesc.cpp" />
+    <ClCompile Include="MakeDescAux.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F3F6CB40-35BF-49DE-AEC6-87B2B20B87C3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -82,10 +86,6 @@
       <Message>Generate mach_desc.h</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\ntl\MakeDesc\MakeDesc.cpp" />
-    <ClCompile Include="..\ntl\MakeDesc\MakeDescAux.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
